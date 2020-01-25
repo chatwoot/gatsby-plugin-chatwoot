@@ -1,0 +1,10 @@
+# Node related
+node_modules
+yarn.lock
+
+# Build files
+gatsby-node.js
+gatsby-ssr.js
+
+# Mac files
+*.DS_Store

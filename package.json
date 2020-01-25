@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-plugin-chatwoot",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to add Chatwoot to your website",
+  "main": "index.js",
+  "author": "Akshit Kr Nagpal <akshitkrnagpal@gmail.com> (https://akshitkrnagpal.com)",
+  "license": "MIT",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/akshitkrnagpal/gatsby-plugin-chatwoot"
+  },
+  "bugs": {
+    "url": "https://github.com/akshitkrnagpal/gatsby-plugin-chatwoot/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transformer-chatwoot",
+    "chatwoot"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@testing-library/react": "^9.4.0",
+    "babel-preset-gatsby-package": "^0.2.15",
+    "cross-env": "^6.0.3"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.19.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

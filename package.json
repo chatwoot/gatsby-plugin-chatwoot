@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-chatwoot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gatsby plugin to add Chatwoot to your website",
   "main": "index.js",
   "author": "Akshit Kr Nagpal <akshitkrnagpal@gmail.com> (https://akshitkrnagpal.com)",
@@ -28,6 +28,9 @@
     "babel-preset-gatsby-package": "^0.2.15",
     "cross-env": "^6.0.3"
   },
+  "files": [
+    "gatsby-*.js"
+  ],
   "peerDependencies": {
     "gatsby": "^2.19.5",
     "react": "^16.12.0",

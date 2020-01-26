@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-chatwoot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby plugin to add Chatwoot to your website",
   "main": "index.js",
   "author": "Akshit Kr Nagpal <akshitkrnagpal@gmail.com> (https://akshitkrnagpal.com)",
@@ -36,7 +36,7 @@
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "watch": "babel -w src --out-dir . --ignore **/__tests__",
-    "prepublish": "cross-env NODE_ENV=production npm run build"
+    "prepare": "cross-env NODE_ENV=production npm run build"
   },
   "engines": {
     "node": ">=8.0.0"

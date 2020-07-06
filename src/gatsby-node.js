@@ -1,5 +1,5 @@
 export const onPreInit = ({ reporter }, pluginOptions) => {
-    if (!pluginOptions.serverURL) {
+    if (!pluginOptions.baseUrl) {
         reporter.warn(
             `The Chatwoot plugin requires a server url. Did you mean to add it?`,
         );

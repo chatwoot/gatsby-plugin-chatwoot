@@ -1,7 +1,7 @@
 # gatsby-plugin-chatwoot
 ![Package](https://github.com/akshitkrnagpal/gatsby-plugin-chatwoot/workflows/Package/badge.svg?branch=master)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Quickly add the [Chatwoot](http://chatwoot.com/) live chat widget to your Gatsby site.
@@ -38,6 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://akshitkrnagpal.com"><img src="https://avatars3.githubusercontent.com/u/15872348?v=4" width="100px;" alt=""/><br /><sub><b>Akshit Kr Nagpal</b></sub></a><br /><a href="https://github.com/akshitkrnagpal/gatsby-plugin-chatwoot/commits?author=akshitkrnagpal" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.chatwoot.com"><img src="https://avatars3.githubusercontent.com/u/2246121?v=4" width="100px;" alt=""/><br /><sub><b>Pranav Raj S</b></sub></a><br /><a href="https://github.com/akshitkrnagpal/gatsby-plugin-chatwoot/commits?author=pranavrajs" title="Code">💻</a></td>
   </tr>
 </table>
 

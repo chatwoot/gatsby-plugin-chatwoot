@@ -23,6 +23,7 @@ plugins: [
             baseUrl: 'BASE_URL', // Required
             websiteToken: 'WEBSITE_TOKEN', // Required
             includeInDevelopment: false, // Optional
+            chatwootSettings: {} // Optional
         },
     },
 ];

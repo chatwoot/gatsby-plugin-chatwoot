@@ -19,7 +19,7 @@ export const onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
             key={`gatsby-plugin-chatwoot`}
             dangerouslySetInnerHTML={{
                 __html: `
-                    window.chatwootSettings = ${pluginOptions.chatwootSettings || {}};
+                    window.chatwootSettings = ${JSON.stringify(pluginOptions.chatwootSettings || {})};
                     (function(d,t) {
                     var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
                     g.src="${pluginOptions.baseUrl}/packs/js/sdk.js";
